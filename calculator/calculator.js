@@ -28,7 +28,7 @@ function power(num, exponent) {
 
 function factorial(num) {
 	let output = 1;
-  for (let i = 1; i <= num.length; i++) {
+  for (let i = 1; i <= num; i++) {
     output *= i;
   }
   return output;
